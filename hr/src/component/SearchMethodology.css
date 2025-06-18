@@ -1,0 +1,71 @@
+.search-methodology {
+    /* background-color: #003366; */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f8fc;
+
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .swiper-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .slide {
+    /* background: #00509e; */
+    background: linear-gradient(135deg, #3c6382, #5a7e9e);
+    /* padding: 20px; */
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:350px;
+  }
+  
+  .slide-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .slide-image {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .slide-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .slide-list {
+    font-size: 14px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .slide-list li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slide-list li::before {
+    content: "\1F538"; /* Small blue diamond bullet point */
+    margin-right: 8px;
+  }

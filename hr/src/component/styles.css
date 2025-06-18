@@ -1,0 +1,86 @@
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+  }
+  
+  /* Hover Effect Cards */
+  .finance-wrapper {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: background 0.5s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .caption {
+    position: relative;
+  }
+  
+  .caption img {
+    width: 60px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .caption .hover-icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .finance-wrapper:hover {
+    background: url("assets/images/bg.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
+  }
+  
+  .finance-wrapper:hover .default-icon {
+    opacity: 0;
+  }
+  
+  .finance-wrapper:hover .hover-icon {
+    opacity: 1;
+  }
+  
+  /* Finance Carousel */
+  .finance-carousel-container {
+    margin-top: 50px;
+  }
+  
+  .finance-wrapper.item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .finance-wrapper.item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Carousel Navigation */
+  .owl-nav {
+    position: absolute;
+    top: -50px;
+    right: 10px;
+  }
+  
+  .owl-prev, .owl-next {
+    background: #2da5f3 !important;
+    padding: 10px 15px !important;
+    border-radius: 50%;
+    color: white !important;
+    font-size: 18px !important;
+  }
+  
+  .owl-prev:hover, .owl-next:hover {
+    background: #1c8cd6 !important;
+  }
+  
